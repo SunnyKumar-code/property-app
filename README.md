@@ -19,25 +19,25 @@ Include screenshots of the following components in your `README.md`. You can cap
 
 ### 1. Navbar
 *Description*: A responsive navigation bar with "Estatary" logo, navigation links (Rent, Buy, Sell, Manage Property, Resources), and Login/Sign Up buttons.  
-`![Navbar Screenshot](./screenshots/navbar.png)`  
-*How to Capture*: Open your app in a browser, navigate to the home page, and take a screenshot of the top navigation bar.
+![Navbar Screenshot](./screenshots/navbar.png)  
+
 
 ### 2. Filters Section
 *Description*: A filter panel with dropdowns for location, move-in date, price range, and property type, plus a Search button, initially showing all properties.  
-`![Filters Screenshot](./screenshots/filters.png)`  
-*How to Capture*: Screenshot the filter section on the home page, showing the default state (all locations, all prices, all types, no move-in date).
+![Filters Screenshot](./screenshots/filters.png)  
+
 
 ### 3. Property List
 *Description*: A grid of property cards displaying details like name, location, price, beds, bathrooms, and size, initially showing all 15 properties.  
-`![Property List Screenshot](./screenshots/property-list.png)`  
-*How to Capture*: Take a screenshot of the property grid on the home page, ensuring it shows multiple cards (e.g., 3 columns on desktop, stacking on mobile).
+![Property List Screenshot](./screenshots/property-list.png) 
+
 
 ### 4. Footer
 *Description*: A footer with the "Estatary" logo, copyright, and links (About Us, Contact, Privacy Policy, Terms of Service).  
-`![Footer Screenshot](./screenshots/footer.png)`  
-*How to Capture*: Screenshot the bottom of the home page to capture the footer.
+![Footer Screenshot](./screenshots/footer.png) 
 
-*Note*: To add actual images, create a `screenshots` folder in your project root, save the images there, and update the paths in the markdown above. Use tools like browser dev tools or screen capture software to take these screenshots.
+
+
 
 ## Functionalities Implemented
 - **Filtering Mechanism**: Users can filter properties by location (e.g., "FL, USA"), move-in date, price range ($500-$2,500, $2,500-$5,000, $5,000+), and property type (e.g., House, Apartment, Villa, etc.). Initially, all properties are shown, and filters update the displayed list in real-time or via the Search button.
@@ -48,11 +48,9 @@ Include screenshots of the following components in your `README.md`. You can cap
 
 ## Extra Packages Used
 - **React**: Core library for building the UI components.
-- **React Router DOM (v6)**: For client-side routing (used for the home page, though favorites routing was removed).
 - **Vite**: Build tool for fast development and production builds.
 - **Tailwind CSS**: CSS framework for styling, providing utility-first classes for responsive design, colors, spacing, and layouts.
 
-No additional packages beyond these were used, as the favorites functionality (which might have required context or state management libraries) has been removed.
 
 ## Learning from the Project
 - **React and Vite Integration**: Gained experience setting up and developing a React app with Vite, leveraging its fast development server and ES module support.

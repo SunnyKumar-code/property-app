@@ -10,8 +10,8 @@ const Navbar = () => (
         <button className="text-gray-600 hover:text-purple-600 hidden md:inline">Sell</button>
         <button className="text-gray-600 hover:text-purple-600 hidden md:inline">Manage Property</button>
         <button className="text-gray-600 hover:text-purple-600 hidden md:inline">Resources</button>
-        <button className="bg-purple-500 text-white px-4 py-2 rounded">Login</button>
-        <button className="bg-purple-500 text-white px-4 py-2 rounded">Sign Up</button>
+      
+
       </div>
     </div>
   </nav>

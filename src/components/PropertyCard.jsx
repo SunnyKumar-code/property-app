@@ -22,7 +22,7 @@ const PropertyCard = ({ property, toggleFavorite, isFavorited }) => {
        
       />
       <div className="mt-3 flex items-center justify-between">
-        <h3 className="text-xl font-bold text-blue-800">{property.name}</h3>
+        <h3 className="text-xl font-bold text-purple-500">{property.name}</h3>
         <div
           onClick={() => toggleFavorite(property)}
           className="ml-2 cursor-pointer"
@@ -35,7 +35,7 @@ const PropertyCard = ({ property, toggleFavorite, isFavorited }) => {
         </div>
       </div>
       <p className="text-gray-700">{property.location}</p>
-      <p className="text-blue-600 font-semibold text-lg">${property.price}/month</p>
+      <p className="text-red-400 font-semibold text-lg">${property.price}/month</p>
       <div className="flex justify-between text-gray-600 mt-2 text-sm">
         <span>{property.beds} Beds</span>
         <span>{property.bathrooms} Bathrooms</span>

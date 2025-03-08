@@ -54,7 +54,7 @@ const Filters = () => {
   const displayedProperties = showFavorites ? likedProperties : filteredProperties;
 
   return (
-    <section className="text-white p-6 rounded-lg mb-6">
+    <section className=" p-6 rounded-lg mb-6">
       <h2 className="text-2xl font-bold text-center mb-4">Find Your Rental Home</h2>
       <div className="flex flex-col md:flex-row items-center justify-center md:space-x-4 space-y-4 md:space-y-0">
         <select
